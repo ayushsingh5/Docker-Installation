@@ -1,6 +1,6 @@
 # Docker-Installation
 
-**Running Linux Containers on macOS with Docker Desktop**
+**Running Linux Containers on windows and macOS with Docker Desktop**
 
 This guide walks you through running Linux containers on your windows and macOS machine using Docker Desktop. Docker provides a convenient way to package and run applications in isolated environments, ensuring consistency and portability across different systems.
 
@@ -10,7 +10,7 @@ Docker Desktop is available for both macOS and Windows. Head over to [https://ww
 
 **2. Create a Docker Account**
 
-To manage Docker images and repositories, you'll need a free Docker account. Visit [https://hub.docker.com/](https://hub.docker.com/) and sign up for an account. After successful signup, log in using your credentials in the Docker Desktop application.
+It is not mandatory to create a docker account for this tutorial but To manage Docker images and repositories, you'll need a free Docker account. Visit [https://hub.docker.com/](https://hub.docker.com/) and sign up for an account. After successful signup, log in using your credentials in the Docker Desktop application.
 
 **3. Choose Recommended Settings**
 
@@ -45,7 +45,7 @@ docker run -p 8888:8888 DOCKER_IMAGE_NAME
 
 Let's break down the options:
 
-- `-p 8888:8888`: This maps the container's port 8888 to port 8888 on your macOS host. This allows you to access the application running inside the container from your web browser.
+- `-p 8888:8888`: The given port address is just for the reference, This maps the container's port 8888 to port 8888 on your macOS host. This allows you to access the application running inside the container from your web browser.
 - `DOCKER_IMAGE_NAME`: Replace this with the actual image name you pulled in step 5.
 
 **7. Access the Application**
