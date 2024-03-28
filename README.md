@@ -1,5 +1,4 @@
 # Docker-Installation
-I'd be glad to create a markdown file for you, incorporating the best aspects of the provided responses and addressing potential shortcomings:
 
 **Running Linux Containers on macOS with Docker Desktop**
 
@@ -28,7 +27,7 @@ During installation, Docker Desktop will ask you to choose between recommended a
 
 **5. Pull a Docker Image**
 
-Now that you have a terminal open, we'll use the `docker pull` command to download a pre-built Docker image. Replace `DOCKER_IMAGE_NAME` with the actual name of the image you want to run. For example, to pull an image named `hitheshjithu/test:latest`, you would run:
+Now that you have a terminal open, we'll use the `docker pull` command to download a pre-built Docker image. Replace `DOCKER_IMAGE_NAME` with the actual name of the image you want to run. For example, to pull an image named `hitheshjithu/test:latest`, you would run:(Note : Replace DOCKER_IMAGE_NAME with the required or suggested Image Name)
 
 ```bash
 docker pull DOCKER_IMAGE_NAME
@@ -51,7 +50,7 @@ Let's break down the options:
 
 **7. Access the Application**
 
-The terminal output after running the `docker run` command will typically display a URL that includes your macOS machine's IP address and the port (in this case, `http://localhost:8888`). Copy this URL and paste it into your web browser to access the application running within the container.
+The terminal output after running the `docker run` command will typically display a URL that includes your machine's IP address and the port (in this case, `http://localhost:8888`). Copy the URL and paste it into your web browser to access the application running within the container.
 
 **Additional Notes:**
 
@@ -59,4 +58,4 @@ The terminal output after running the `docker run` command will typically displa
 - To view a list of running containers, use `docker ps`.
 - To remove a stopped container, use `docker rm CONTAINER_ID`.
 
-I hope this guide helps you get started with running Linux containers on your macOS machine using Docker Desktop!
+I hope this guide helps you get started with running Linux containers on your macOS as well as windows machine using Docker Desktop!
