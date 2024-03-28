@@ -2,7 +2,7 @@
 
 **Running Linux Containers on macOS with Docker Desktop**
 
-This guide walks you through running Linux containers on your macOS machine using Docker Desktop. Docker provides a convenient way to package and run applications in isolated environments, ensuring consistency and portability across different systems.
+This guide walks you through running Linux containers on your windows and macOS machine using Docker Desktop. Docker provides a convenient way to package and run applications in isolated environments, ensuring consistency and portability across different systems.
 
 **1. Install Docker Desktop**
 
